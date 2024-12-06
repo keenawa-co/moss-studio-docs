@@ -5,7 +5,7 @@ import tailwind from "@astrojs/tailwind";
 // https://astro.build/config
 export default defineConfig({
     site: "https://keenawa-co.github.io/moss-studio-docs/",
-
+    base: "/moss-studio-docs/",
     integrations: [
         starlight({
             title: "Moss Docs",
