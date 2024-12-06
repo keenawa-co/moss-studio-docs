@@ -22,6 +22,15 @@ export default defineConfig({
                     collapsed: false,
                 },
             ],
+            defaultLocale: "en",
+            locales: {
+                en: {
+                    label: "English",
+                },
+                ru: {
+                    label: "Русский",
+                },
+            },
             customCss: ["./src/tailwind.css"],
         }),
         tailwind({ applyBaseStyles: false }),
