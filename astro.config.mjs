@@ -10,17 +10,6 @@ export default defineConfig({
             social: {
                 github: "https://github.com/keenawa-co/moss-studio-docs",
             },
-            sidebar: [
-                {
-                    autogenerate: { directory: "guides" },
-                    collapsed: false,
-                },
-                {
-                    label: "Test",
-                    autogenerate: { directory: "test" },
-                    collapsed: false,
-                },
-            ],
             defaultLocale: "en",
             locales: {
                 en: {
