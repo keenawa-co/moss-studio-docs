@@ -8,11 +8,10 @@ export default defineConfig({
         starlight({
             title: "Moss Docs",
             social: {
-                github: "https://github.com/keenawa-co/moss",
+                github: "https://github.com/keenawa-co/moss-studio-docs",
             },
             sidebar: [
                 {
-                    label: "Guides",
                     autogenerate: { directory: "guides" },
                     collapsed: false,
                 },
