@@ -6,6 +6,7 @@ import tailwind from "@astrojs/tailwind";
 export default defineConfig({
     integrations: [
         starlight({
+            site: "https://keenawa-co.github.io/moss-studio-docs/",
             title: "Moss Docs",
             social: {
                 github: "https://github.com/keenawa-co/moss-studio-docs",
@@ -22,7 +23,7 @@ export default defineConfig({
             customCss: ["./src/tailwind.css"],
         }),
         tailwind({
-            applyBaseStyles: false,
+            applyBaseStyles: true,
             configFile: "./tailwind.config.mjs",
         }),
     ],
