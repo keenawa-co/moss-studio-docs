@@ -36,8 +36,8 @@ Before starting the project, ensure you have the following installed:
 
 ### Forking the Repository
 
-1. Navigate to the Moss repository on GitHub, <https://github.com/keenawa-co/moss>
-2. Click the "Fork" button at the top right of the page, or click here, <https://github.com/keenawa-co/moss/fork>
+1. Navigate to the Moss repository on GitHub, <https://github.com/moss-foundation/moss>
+2. Click the "Fork" button at the top right of the page, or click here, <https://github.com/moss-foundation/moss/fork>
 
 ### Cloning the Repository
 
@@ -120,7 +120,7 @@ The branch name is your first opportunity to give your task context. Branch nami
 
 `<TYPE>-<ISSUE_ID>-<DESCRIPTION>`
 
-It is recommended to combine the relevant [GitHub Issue](https://github.com/keenawa-co/moss/issues) with a short
+It is recommended to combine the relevant [GitHub Issue](https://github.com/moss-foundation/moss/issues) with a short
 description that describes the task resolved in this branch. If you don't have GitHub issue for your PR, then you may
 avoid the prefix, but keep in mind that more likely you have to create the issue first. For example:
 
@@ -153,7 +153,7 @@ Where `TYPE` can be any of the types discussed in the [Semantic Release Format](
     task, so you should explain why you wrote the code the way you did.
 
 -   Describe the scene and provide everything that will help to understand the background and a context for the reviewers
-    by adding related [GitHub Issue](https://github.com/keenawa-co/moss/issues) to the description, and links to the
+    by adding related [GitHub Issue](https://github.com/moss-foundation/moss/issues) to the description, and links to the
     related PRs, projects or third-party documentation. If there are any potential drawbacks or trade-offs to your
     changes, be sure to mention them too.
 
