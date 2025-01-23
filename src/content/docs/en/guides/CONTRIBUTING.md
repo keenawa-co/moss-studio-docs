@@ -51,14 +51,14 @@ Before starting the project, ensure you have the following installed:
 
 1. Navigate to the project directory: `cd moss`
 2. Install the necessary dependencies: `cargo install`
-3. Make sure the project requirements are met. Follow the [requirements](README#requirements) section in the project
+3. Make sure the project requirements are met. Follow the [requirements](../README#requirements) section in the project
    Readme.
 4. For Ubuntu Linux and Windows users, there are a few extra steps that you need to follow. 
-See [Ubuntu Linux](installation#note-for-ubuntu-linux-users) and [Windows](installation#note-for-windows-users) section of the Installation guide.
+See [Ubuntu Linux](../installation#note-for-ubuntu-linux-users) and [Windows](../installation#note-for-windows-users) section of the Installation guide.
 
 ## Code of conduct
 
-Help us keep Moss open and inclusive. Please read and follow our [Code of Conduct](CODE_OF_CONDUCT).
+Help us keep Moss open and inclusive. Please read and follow our [Code of Conduct](../code_of_conduct).
 
 ## How to Contribute
 
